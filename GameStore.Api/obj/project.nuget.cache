@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ob3KH8D8wpo=",
+  "dgSpecHash": "pG0eHAgutA0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sulej\\GameStore.Api\\GameStore.Api.csproj",
+  "projectFilePath": "C:\\Users\\sulej\\GameStore\\GameStore.api\\GameStore.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
