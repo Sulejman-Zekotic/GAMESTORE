@@ -1,14 +1,12 @@
-using Microsoft.AspNetCore.SignalR;
+using System;
 
-namespace GameStore.Api;
+namespace GameStore.Api.DTOS;
 
 public record GameDTO
 (
-  
-  int Id ,
-  string Name,
-  string Genre,
-  decimal Price,
-  DateOnly ReleaseDate
-
+    int id,
+    string Name,
+    string  Genre,
+    decimal Price,
+    DateOnly ReleaseDate
 );

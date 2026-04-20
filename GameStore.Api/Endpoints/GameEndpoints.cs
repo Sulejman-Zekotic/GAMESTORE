@@ -75,7 +75,6 @@ public static class Endpoints
                                         .ExecuteDeleteAsync();
                         return Results.NoContent();
                     });
-
+   
     }
-
 }

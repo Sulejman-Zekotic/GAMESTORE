@@ -10,5 +10,6 @@ builder.Services.AddValidation();
 builder.AddGameStoreDb();
 var app = builder.Build();
 app.MapGamesEndpoint();
+app.MapGenreEndpoints();
 app.MigrateDb();
 app.Run();
