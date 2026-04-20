@@ -1,26 +1,26 @@
 GET http://localhost:5211/games
 ###
-GET http://localhost:5211/games/3
+GET http://localhost:5211/games/2
 ###
 POST http://localhost:5211/games
 Content-Type : application/json
 
 {
- "Name":"Subway Surfers",
- "Genre":"platformer",
- "Price": 55.90,
+ "Name":"GTA 3",
+ "GenreId":2,
+ "Price": 20.5,
  "ReleaseDate":"2025-10-20"
 }
 
 ###
-PUT  http://localhost:5211/games/1
+PUT  http://localhost:5211/games/2
 Content-Type: application/json
 
 {
   "Name":"Max Payne 2 ",
-  "Genre":"RPG",
+  "GenreId":1,
   "Price":89.99,
   "ReleaseDate":"2024-12-10"
 }
 ###
-DELETE http://localhost:5211/games/3
+DELETE http://localhost:5211/games/2
